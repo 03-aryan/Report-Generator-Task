@@ -4,19 +4,33 @@
 
 appversal
 ├── test_client/
-│   └── test.go      # Your test client code here
+
+│   └── test.go  # Your test client code here
+
 ├── cron/
+
 │   └── jobs.go
+
 ├── health-check/
+
 │   └── health.go
+
 ├── proto/
+
 │   ├── report.proto
+
 │   ├── report.pb.go
+
 │   └── report_grpc.pb.go
+
 ├── server/
+
 │   └── server.go
+
 ├── main.go
+
 ├── go.mod
+
 ├── go.sum
 
 
